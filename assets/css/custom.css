@@ -1,3 +1,7 @@
-button.fc-today-button.fc-button.fc-button-primary {
-    margin-left: .75em !important;
+/* .fc-daygrid-event-harness a {
+    cursor: pointer;
+} */
+
+.fc .fc-daygrid-day.fc-day-today {
+    background-color: rgba(255,220,40,.15);
 }

@@ -3,6 +3,7 @@
 // date_default_timezone_set('America/La_Paz');
 // echo password_hash('admin', PASSWORD_DEFAULT);
 // exit();
+require_once 'config/app/Autoload.php';
 require_once 'config/Config.php';
 require_once 'config/Helpers.php';
 
@@ -28,7 +29,6 @@ if (!empty($array[2])) {
     }
 }
 
-require_once 'config/app/Autoload.php';
 $dirController = 'controllers/' . $controller . '.php';
 if (file_exists($dirController)) {
     require_once $dirController;
