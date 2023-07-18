@@ -29,28 +29,28 @@
                                     <input type="hidden" id="id" name="id">
                                     <label for="nombre" class="form-label">Nombre del evento</label>
                                 </div>
-                                <div class="row">
-                                    <div class="col-md-6">
+                                <div class="row g-3">
+                                    <div class="col">
                                         <div class="form-floating mb-3">
                                             <input type="datetime-local" class="form-control" id="fecha_inicio" name="fecha_inicio">
                                             <label for="fecha_inicio" class="form-label">Fecha de inicio</label>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col">
                                         <div class="form-floating mb-3">
                                             <input type="time" class="form-control" id="hora_inicio" name="hora_inicio" value="00:00">
                                             <label for="hora_inicio" class="form-label">Hora de inicio</label>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="col-md-6">
+                                <div class="row g-3">
+                                    <div class="col">
                                         <div class="form-floating mb-3">
                                             <input type="datetime-local" class="form-control" id="fecha_fin" name="fecha_fin">
                                             <label for="fecha_fin" class="form-label">Fecha de finalización</label>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col">
                                         <div class="form-floating mb-3">
                                             <input type="time" class="form-control" id="hora_fin" name="hora_fin" value="00:00">
                                             <label for="hora_fin" class="form-label">Hora de finalización</label>
