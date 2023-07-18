@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
             center: 'title',
             right: 'dayGridMonth,timeGridWeek,timeGridDay,listWeek'
         },
-        events: base_url + 'home/listar',
+        events: base_url + 'principal/listar',
         editable: true,
         // Para registrar un nuevo evento
         dateClick: function (info) {
@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const idEvento = info.event.id;
             const fechaInicio = moment(info.event.start).format('YYYY-MM-DDTHH:mm');
             const fechaFin = moment(info.event.end).format('YYYY-MM-DDTHH:mm');
-            const url = base_url + 'home/drop';
+            const url = base_url + 'principal/drop';
             const data = new FormData();
             data.append('id', idEvento);
             data.append('fecha_inicio', fechaInicio);
@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function() {
         } else if (fecha_fin.value == '') {
             alertaPersonalizada('warning', 'La fecha y hora de finalización es requerido');
         } else {
-            const url = base_url + 'home/registrar';
+            const url = base_url + 'principal/registrar';
             const data = new FormData(formEvento);
             const http = new XMLHttpRequest();
             http.open('POST', url, true);
@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded', function() {
             cancelButtonText: 'Cancelar'
         }).then((result) => {
             if (result.isConfirmed) {
-                const url = base_url + 'home/eliminar/' + eventoId.value;
+                const url = base_url + 'principal/eliminar/' + eventoId.value;
                 const http = new XMLHttpRequest();
                 http.open('GET', url, true);
                 http.send();

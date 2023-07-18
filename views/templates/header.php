@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i" />
     <!-- css -->
     <link rel="stylesheet" href="<?=BASE_URL?>assets/plugins/bootstrap/css/bootstrap.ltr.css" />
+    <link rel="stylesheet" href="<?=BASE_URL?>assets/plugins/simplebar/simplebar.min.css" />
     <link rel="stylesheet" href="<?=BASE_URL?>assets/plugins/air-datepicker/css/datepicker.min.css" />
+    <link rel="stylesheet" href="<?=BASE_URL?>assets/plugins/select2/css/select2.min.css" />
     <link rel="stylesheet" href="<?=BASE_URL?>assets/plugins/fullcalendar/main.min.css" />
     <link rel="stylesheet" href="<?=BASE_URL?>assets/plugins/sweetalert2/css/sweetalert2.min.css" />
     <link rel="stylesheet" href="<?=BASE_URL?>assets/css/style.css" />

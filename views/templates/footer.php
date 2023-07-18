@@ -5,9 +5,11 @@
         <div class="sa-app__toasts toast-container bottom-0 end-0"></div>
     </div><!-- sa-app / end --><!-- scripts -->
     <script src="<?=BASE_URL?>assets/plugins/jquery/jquery.min.js"></script>
+    <script src="<?=BASE_URL?>assets/plugins/simplebar/simplebar.min.js"></script>
     <script src="<?=BASE_URL?>assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="<?=BASE_URL?>assets/plugins/air-datepicker/js/datepicker.min.js"></script>
     <script src="<?=BASE_URL?>assets/plugins/air-datepicker/js/i18n/datepicker.en.js"></script>
+    <script src="<?=BASE_URL?>assets/plugins/select2/js/select2.min.js"></script>
     <script src="<?=BASE_URL?>assets/plugins/fontawesome/js/all.min.js" data-auto-replace-svg="" async=""></script>
     <script src="<?=BASE_URL?>assets/plugins/fullcalendar/main.min.js"></script>
     <script src="<?=BASE_URL?>assets/plugins/fullcalendar/locales/es-us.js"></script>
